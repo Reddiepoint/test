@@ -7,7 +7,7 @@ local WhitelistedKeys = {
 local function has_value (table, key)
     for index, value in ipairs(table) do
         if value == key then
-            return "Found the key"
+            return "Found the key!"
         end
     end
 
