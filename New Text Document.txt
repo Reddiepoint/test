@@ -1,3 +1,9 @@
+local WhitelistedKeys = {
+  "1",
+  "2"
+}
+
+
 local function has_value (table, key)
     for index, value in ipairs(table) do
         if value == key then
