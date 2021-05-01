@@ -3,15 +3,15 @@ local WhitelistedKeys = {
   "2"
 }
 
-return function(UserKey)
-	local function has_value (table, key)
+local function has_value (table, key)
     	for index, value in ipairs(table) do
-   	     if value == key then
-    	        return "Found the key!"
-	        end
-  	  end
-
-  	  return "Did not find the key"
-	end
-	print(has_value(WhitelistedKeys, UserKey))
+   		if value == key then
+    	        	return "Found the key!"
+	        	end
+		end
+		else
+			return "Did not find the key"
+		end
+	
+	print(has_value(WhitelistedKeys, Key))
 end
