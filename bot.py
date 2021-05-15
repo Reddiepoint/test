@@ -5,7 +5,6 @@ from discord.ext import commands
 from discord.ext.commands import Bot
 from discord.ext.commands import MissingPermissions, MissingRequiredArgument, MissingAnyRole, CommandInvokeError, MemberNotFound
 import asyncio
-import psycopg2
 import youtube_dl
 
 
